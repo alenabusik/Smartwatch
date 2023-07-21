@@ -1,0 +1,17 @@
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+@import 'base/variables';
+@import 'blocks/_promo';
+@import 'blocks/_headers';
+@import 'blocks/_buttons';
+@import 'blocks/advantages';
+@import 'blocks/titles';
+@import 'blocks/consultation';
+@import 'blocks/forms';
+@import 'base/media.scss';

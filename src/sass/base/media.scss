@@ -1,0 +1,163 @@
+@media  (max-width: 1200px) {
+}
+
+@media  (max-width: 991px) {
+.header {
+    display: flex;
+    justify-content: space-around;
+    &__logo {
+        width: 150px;
+    }
+    &__official {
+        font-size: 10px;
+        span {
+            font-size: 14px;
+        }    
+    }
+    &__phone {
+        font-size: 14px;
+        }
+    }
+.promo {
+    &__wrapper { 
+        display: flex;
+        align-items: center;   
+        }
+    &__header {
+        font-size: 35px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 32px;
+        }                
+    }
+
+.advantages {
+    &__title {
+        font-size: 25px;
+    }
+    &__subtitle {
+        font-size: 14px;
+    }
+    &__item {
+        padding: 0 20px 0 20px;
+    }
+    &__descr {
+        font-size: 12px;
+    }
+}
+    .consultation {
+    padding: 100px 30px 92px 30px;
+    .title_left {
+        font-size: 30px;
+        
+        }    
+    }
+
+}
+
+   
+
+@media (max-width: 767px) {
+    .promo {
+        &__header {
+            font-size: 25px;
+        }
+        &__subheader {
+            font-size: 15px;
+        }
+        &__icon {
+            width: 100px;
+            font-size: 14px;
+            color: white;
+        }
+    }
+    .advantages {
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__item {
+            display: block;
+            margin: 15px auto;
+            
+        }
+        &__descr {
+            font-size: 15px;
+        }
+    }
+    .consultation {        
+        .title_left {
+            font-size: 25px;
+        }
+        &__descr {
+            font-size: 18px;
+        }        
+}
+
+@media (max-width: 575px) {
+    .header {
+        display: flex;
+        justify-content: space-around;
+        &__logo {
+            width: 90px;
+        }
+        &__official {
+            width: 100px;
+            font-size: 10px;
+            span {
+                font-size: 12px;
+            }
+        }
+        &__phone {
+            font-size: 10px;
+        }
+    }
+    .button {
+        width: 80px;
+        font-size: 10px;
+        &_main {
+            width: 150px;
+        }
+    }
+    .promo {
+        &__header{
+            font-size: 15px;
+
+        }
+        &__subheader {
+            font-size: 12px;
+        }
+        &__icons{
+            display: flex;
+            justify-content: center;
+        }
+        &__icon {
+            margin: 0 15px;
+            width: 70px;
+            font-size: 10px;
+        }
+    }
+    .advantages {
+        &__title {
+            font-size: 20px;
+        }
+      }
+    }
+    .consultation {        
+        .title_left {
+            text-align: center;
+            font-size: 18px;
+        }
+        &__descr {
+            text-align: center;
+            font-size: 16px;
+        }        
+    }
+    .feed-form {
+        width: 250px;
+    }
+    .button_submit {
+        width: 250px;
+    }
+       
+        
+}
